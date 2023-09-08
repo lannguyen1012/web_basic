@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+.nav{
+    background-color: #000000;
+    color: white;
+    padding:10px;
+    width: 100%;
+    position: fixed; 
+    text-align: left !important;
+}
+.navbar{
+    color: whitesmoke;
+    font-size:medium;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 20px;
+   
+}
+.navbar:hover{
+    color:black;
+    background-color:#ffffffda
+}
+#home{
+    margin: auto;
+    max-width: 1000px;
+}
+#About{
+    text-align: center;
+    
+}
+#member{
+    text-align: center;
+
+}
+#member img{
+    width: 25%;
+    margin-left: 50px;
+
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+#fan{
+    opacity: 50%;
+    font-style: italic;
+    margin: 15px;
+}
+#contact input{
+    display: block;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    text-align: left !important;
+    width: 100%;
+    margin-top: 10px;
+}
+button{
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 65px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    background-color: #000000;
+}
+button:hover{
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    height: 40px;
+    width: 65px;
+    margin-bottom: 15px;
+    color: rgb(0, 0, 0);
+    background-color: #cebfbf;
+}
+

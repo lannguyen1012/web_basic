@@ -1,0 +1,41 @@
+#dautien{
+    flex-direction:row;
+    display: flex;
+    
+}
+div#nav{
+    background-color: rgb(143, 255, 31);
+    height: 800px;
+    width: 300px;
+}
+#pcl1{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    background-color:#ccffcc;
+    height: 200px;
+    width: 1250px;
+}
+#pcl2{
+    display: flex;
+    flex-direction: row;
+}
+#article{
+    height: 400px;
+    width: 600px;
+}
+#footer{
+    background-color: #ccffcc;
+    height:200px ;
+    width: 750px;
+}
+#pcl3{
+    display: flex;
+    flex-direction: column;
+}
+#aside{
+    background-color: #ffe6e6;
+    height:auto;
+    width:500px;
+}
