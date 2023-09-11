@@ -49,3 +49,21 @@ footer{
     margin: auto;
     margin-top: 20px;
 }
+.food{
+    padding: 0px;
+    margin: 20px 5px;
+    display:inline-block;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+}
+.food-picture{
+    height: 100px;
+    width: 150px;
+}
+button.order-button{
+    border: none;
+    border-radius: 25px;
+    color: rgb(49, 49, 49);
+    background-color: #dddef3;
+}
