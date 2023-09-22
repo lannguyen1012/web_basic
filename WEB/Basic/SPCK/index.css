@@ -45,11 +45,46 @@ header{
 
 /* footer */
 footer{
-    background-color:#D9D9D9;
+    background-color:#343434;
     font-size: large;
     font-weight: bold;
-    color: black;
+    color: #d64400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
+.order-button2{
+    border: solid 2px #d64400;
+    border-radius: 10px;
+    color: #d64400;
+    background: #343434;
+    height: fit-content;
+    margin: 15px 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    z-index: 0;
+}
+.order-button2:hover{
+    border: solid 2px #d64400;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #d64400;
+    /* margin-top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.2s linear; */
+}
+#footer_info{
+    margin: 15px 0px;
+}
+#footer_button{
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
 }
 
 /* đồ ăn là chân ái */
@@ -84,6 +119,7 @@ footer{
     flex: 1 1 15rem;
     position: relative;
     justify-items: center;
+    justify-content:space-between;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
     
 }
@@ -92,6 +128,9 @@ footer{
     width: 200px;
     /* align-items: center; */
     /* object-fit: cover; */
+}
+.food div{
+    margin-bottom: 50px;
 }
 button.order-button{
     border: solid 2px #d64400;
@@ -102,9 +141,12 @@ button.order-button{
     padding: 10px;
     cursor: pointer;
     display: inline-block;
-    position: relative;
+    /* position: relative; */
+    position: absolute;
     font-size: 15px;
     z-index: 0;
+    bottom: 10px;
+    left: 100px;
     
 }
 
@@ -120,49 +162,115 @@ button.order-button:hover{
     /* z-index: -1; */
 }
 
+#order-btn{
+    border: solid 2px #d64400;
+    border-radius: 10px;
+    color: #d64400;
+    background: #ffffff;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative !important; 
+    /* position: absolute; */
+    font-size: 15px;
+    z-index: 0;
+    /* bottom: 10px;
+    left: 100px;
+     */
+}
+
+#order-btn:hover{
+    border: solid 2px #d64400;
+    border-radius: 10px;
+    color: #ffffff;
+    background: #d64400;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.2s linear;
+}
+
 /* tiêu đề  */
 .title1{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
     font-family:"Nunito", sans-serif;
     padding-top: 0px;
     color: #595959;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 #title1{
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
     font-family:"Nunito", sans-serif;
-    padding-top: 80px;
+    padding-top: 50px;
     color: #595959;
 }
-
+span{
+    color: #d64400;
+}
+/* review */
 #chef-review{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .review{
     display: flex;
-    flex-direction:row;
-    background-color: #595959;
-    border: 5px black;
+    flex-direction: column;
+    background-color: #9f9d9d;
+    border: 7px solid rgb(255, 255, 255);
     border-radius: 50px;
-
+    width: 400px;
+    height: 590px;
+    width: 350px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+}
+.img_review{
+    text-align: center;
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+    
 }
 .review-pic{
-    height: 200px;
+    height: 150px;
     border-radius: 50px;
-    width: 180px;
+    width:150px;
+    /* padding: 10px 10px; */
+    border-radius: 250px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.253);
+}
+.rating{
+    text-align: center;
+}
+.rating img{
+    width: 150px;
 }
 .chef-name{
     text-align: center;
-    font-family:"Nunito", sans-serif ;
-    font-size: 15px;
+    font-family:Tahoma ;
+    font-size: 25px;
     font-weight: bold;
+    padding: 5px;
 }
-
+.review-chef{
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    display: flex;
+    padding: 0px;
+}
+.review-chef-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 25px;
+    
+}
 /* order */
 .order_container{
     display: flex;
@@ -198,4 +306,11 @@ button.order-button:hover{
 
 .order_container #form-order button{
     padding: 15px 50px;
+}
+.product-name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #d64400;
+    
 }
